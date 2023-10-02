@@ -16,7 +16,7 @@ head:
 
 One benefit of Smart Contract Accounts is that it's possible to batch transactions in one User Operation. Not all Smart Contract Accounts support batching. But, if the account you're using does, then implementations of `SmartAccountProvider` will allow you to make those calls.
 
-There are two ways you can batch transacations using `SmartAccountProvider`:
+There are two ways you can batch transactions using `SmartAccountProvider`:
 
 1. via `sendUserOperation`
 2. via `sendTransactions`
