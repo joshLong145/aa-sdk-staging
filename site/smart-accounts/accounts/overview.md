@@ -19,7 +19,7 @@ next:
 
 ## What's a Smart Account?
 
-A smart account is a smart contract controlled by an account owner or other authorized entities. You can use it to manage assets, carry out transactions (known as `userOperations` or `userOps`), and more. There are many different implementations of a Smart Account, including Alchemy's [Light Account](/packages/smart-accounts/accounts/light-account).
+A smart account is a smart contract controlled by an account owner or other authorized entities. You can use it to manage assets, carry out transactions (known as `userOperations` or `userOps`), and more. There are many different implementations of a Smart Account, including Alchemy's [Light Account](/smart-accounts/accounts/light-account).
 
 ## Kick Off with Light Account
 
