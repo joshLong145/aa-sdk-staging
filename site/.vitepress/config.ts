@@ -182,7 +182,21 @@ export default defineConfig({
               },
             ],
           },
-          { text: "Accounts" },
+          {
+            text: "Accounts",
+            base: "/packages/aa-core/accounts",
+            collapsed: true,
+            items: [
+              {
+                text: "BaseSmartContractAccount",
+                link: "/base-smart-contract-account",
+              },
+              {
+                text: "SimpleSmartContractAccount",
+                link: "/simple-smart-contract-account",
+              },
+            ],
+          },
           {
             text: "Signers",
             base: "/packages/aa-core/signers",
