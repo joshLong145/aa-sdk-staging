@@ -17,7 +17,7 @@ description: Everything you need to build 4337 accounts for your users
           <span>Account Kit</span>
         </div>
         <div class="Hero Info Title">
-          <span class="Hero Info Title Color">Account Abstraction</span>Legos
+          Account Abstraction Legos
         </div>
         <div class="Hero Info SubTitle">
           Everything you need to build 4337 accounts.
@@ -27,7 +27,7 @@ description: Everything you need to build 4337 accounts for your users
             <button class="ExploreTheDocsButton">Explore the docs</button>
           </a>
           <a rel="noopener noreferrer" href="./packages/overview.html">
-            <button class="WhyAccountKitButton">Why Account Kit</button>
+            <button class="WhyAccountKitButton">Why Account Kit?</button>
           </a>
         </div>
       </div>
