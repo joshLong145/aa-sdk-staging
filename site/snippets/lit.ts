@@ -4,8 +4,6 @@ import { LitNodeClient } from "@lit-protocol/lit-node-client";
 import { AuthCallbackParams } from "@lit-protocol/types";
 import { WalletClientSigner, type SmartAccountSigner } from "@alchemy/aa-core";
 
-export const entryPointAddress = "0x5FF137D4b0FDCD49DcA30c7CF57E578a026d2789";
-
 const POLYGON_MUMBAI_RPC_URL = "https://polygon-mumbai-bor.publicnode.com";
 const PKP_PUBLIC_KEY = "<YOUR PKP PUBLIC KEY>";
 
