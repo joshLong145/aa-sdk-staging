@@ -10,7 +10,7 @@ const POLYGON_MUMBAI_RPC_URL = "https://polygon-mumbai-bor.publicnode.com";
 const PKP_PUBLIC_KEY = "<YOUR PKP PUBLIC KEY>";
 
 const litNodeClient = new LitNodeClient({
-  litNetwork: "serrano",
+  litNetwork: "cayenne",
   debug: false,
 });
 await litNodeClient.connect();
@@ -37,7 +37,6 @@ const authNeededCallback = async (params: AuthCallbackParams) => {
     resources: params.resources,
     chainId: 1,
   });
-  console.log("callback response", response);
   return response.authSig;
 };
 

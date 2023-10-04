@@ -14,9 +14,16 @@ head:
 
 # Lit Protocol
 
-[LitProtocol](https://litprotocol.com/) is a blockchain-agnostic middleware network that can be used to read and write data between blockchains, state machines, and off-chain platforms with conditional decryption and programmatic signing.
+[LitProtocol](https://litprotocol.com/) is distributed cryptography for signing, encryption, and compute. A generalizable key management network, Lit provides developers with a set of tools for managing sovereign identities on the open Web.
 
 Combining Lit Protocol's [pkp wallet](https://www.npmjs.com/package/@lit-protocol/pkp-ethers) with Account Kit allows you to use your Programmable Key Pairs (PKPs) as a smart account for your users.
+
+::: warning
+
+Lit Protocol's pkp network is still in testnet. Backwards compatiblity, and data availability will not be garanteed until mainnet. Do not use PKP wallets to store valuable assets.
+
+:::
+
 
 # Integration
 
@@ -25,11 +32,11 @@ Combining Lit Protocol's [pkp wallet](https://www.npmjs.com/package/@lit-protoco
 ::: code-group
 
 ```bash [npm]
-npm i @lit-protocol/pkp-ethers
+npm i @lit-protocol/pkp-ethers@3.0.5
 ```
 
 ```bash [yarn]
-yarn add @lit-protocol/pkp-ethers
+yarn add @lit-protocol/pkp-ethers@3.0.5
 ```
 
 :::
@@ -39,11 +46,11 @@ yarn add @lit-protocol/pkp-ethers
 ::: code-group
 
 ```bash [npm]
-npm i @lit-protocol/lit-node-client
+npm i @lit-protocol/lit-node-client@3.0.5
 ```
 
 ```bash [yarn]
-  yarn add @lit-protocol/lit-node-client
+yarn add @lit-protocol/lit-node-client@3.0.5
 ```
 
 :::
