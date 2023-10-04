@@ -58,13 +58,27 @@ const { hash } = await provider.sendUserOperation(uo);
   <div class="LinkCardGroup">
     <div class="LinkCard Intro">
       <div class="LinkCardContent">
-        <div class="LinkCardHeading">Introduction</div>
+        <div class="LinkCardHeading">Why Account Kit?</div>
         <div class="LinkCardSubHeading">
           What can you do with the Alchemy Account Kit?
         </div>
       </div>
       <div class="LinkCardCTA">
         <a rel="noopener noreferrer" href="./introduction.html">
+          <img src="/arrow-right.svg" alt="Click Here" />
+        </a>
+      </div>
+    </div>
+    <div class="LinkCard Overview">
+      <div class="LinkCardContent">
+        <div class="LinkCardHeading">Overview</div>
+        <div class="LinkCardSubHeading">
+          The Alchemy Account Kit SDK is comprised of a number of smaller
+          packages.
+        </div>
+      </div>
+      <div class="LinkCardCTA">
+        <a rel="noopener noreferrer" href="./packages/overview.html">
           <img src="/arrow-right.svg" alt="Click Here" />
         </a>
       </div>
@@ -78,20 +92,6 @@ const { hash } = await provider.sendUserOperation(uo);
       </div>
       <div class="LinkCardCTA">
         <a rel="noopener noreferrer" href="./getting-started.html">
-          <img src="/arrow-right.svg" alt="Click Here" />
-        </a>
-      </div>
-    </div>
-    <div class="LinkCard Overview">
-      <div class="LinkCardContent">
-        <div class="LinkCardHeading">Packages overview</div>
-        <div class="LinkCardSubHeading">
-          The Alchemy Account Kit SDK is comprised of a number of smaller
-          packages.
-        </div>
-      </div>
-      <div class="LinkCardCTA">
-        <a rel="noopener noreferrer" href="./packages/overview.html">
           <img src="/arrow-right.svg" alt="Click Here" />
         </a>
       </div>
