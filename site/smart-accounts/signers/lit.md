@@ -20,7 +20,7 @@ Combining Lit Protocol's [pkp wallet](https://www.npmjs.com/package/@lit-protoco
 
 ::: warning
 
-Lit Protocol's pkp network is still in testnet. Backwards compatiblity, and data availability will not be garanteed until mainnet. Do not use PKP wallets to store valuable assets.
+Lit Protocol's pkp network is still in testnet. Backwards compatibility, and data availability will not be guaranteed until mainnet. Do not use PKP wallets to store valuable assets.
 
 :::
 
@@ -57,7 +57,7 @@ yarn add @lit-protocol/lit-node-client@3.0.5
 
 ### Creating PKP
 
-See our docs [here](https://developer.litprotocol.com/v2/pkp/intro) for creating PKPs
+See documentation [here](https://developer.litprotocol.com/v2/pkp/intro) for creating PKPs
 
 ### Create a SmartAccountSigner
 
@@ -67,8 +67,8 @@ Next, setup the `LitNodeClient` and `PKPEthersWallet` to create a `SmartAccountS
 
 ### Use it with LightAccount
 
-We can link our `SmartAccountSigner` to a `LightSmartContractAccount` from `aa-acounts`:
-;;; code-group
+We can link our `SmartAccountSigner` to a `LightSmartContractAccount` from `aa-accounts`:
+::: code-group
 
 ```ts [example.ts]
 import { AlchemyProvider } from "@alchemy/aa-alchemy";
@@ -92,4 +92,4 @@ const provider = new AlchemyProvider({
 ```
 
 <<< @/snippets/lit.ts
-;;;
+:::
