@@ -3,8 +3,10 @@ import { LitActionResource, LitAbility } from "@lit-protocol/auth-helpers";
 import { LitNodeClient } from "@lit-protocol/lit-node-client";
 import { AuthCallbackParams } from "@lit-protocol/types";
 import { WalletClientSigner, type SmartAccountSigner } from "@alchemy/aa-core";
+import { polygonMumbai } from "viem/chains";
 
-const POLYGON_MUMBAI_RPC_URL = "https://polygon-mumbai-bor.publicnode.com";
+const API_KEY = "<YOUR API KEY>";
+const POLYGON_MUMBAI_RPC_URL = `${polygonMumbai.rpcUrls.alchemy.http[0]}/${API_KEY}`;
 const PKP_PUBLIC_KEY = "<YOUR PKP PUBLIC KEY>";
 
 const litNodeClient = new LitNodeClient({
@@ -25,7 +27,6 @@ const resourceAbilities = [
  * https://developer.litprotocol.com/v2/pkp/minting
  */
 const authNeededCallback = async (params: AuthCallbackParams) => {
-  console.log("params", params);
   const response = await litNodeClient.signSessionKey({
     sessionKey: params.sessionKeyPair,
     statement: params.statement,
