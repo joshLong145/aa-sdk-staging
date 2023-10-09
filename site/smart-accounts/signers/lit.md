@@ -32,11 +32,11 @@ Lit Protocol's pkp network is still in testnet. Backwards compatibility, and dat
 ::: code-group
 
 ```bash [npm]
-npm i @lit-protocol/pkp-ethers@3.0.5
+npm i @lit-protocol/pkp-ethers
 ```
 
 ```bash [yarn]
-yarn add @lit-protocol/pkp-ethers@3.0.5
+yarn add @lit-protocol/pkp-ethers
 ```
 
 :::
@@ -46,11 +46,11 @@ yarn add @lit-protocol/pkp-ethers@3.0.5
 ::: code-group
 
 ```bash [npm]
-npm i @lit-protocol/lit-node-client@3.0.5
+npm i @lit-protocol/lit-node-client
 ```
 
 ```bash [yarn]
-yarn add @lit-protocol/lit-node-client@3.0.5
+yarn add @lit-protocol/lit-node-client
 ```
 
 :::
@@ -74,6 +74,7 @@ We can link our `SmartAccountSigner` to a `LightSmartContractAccount` from `aa-a
 import { AlchemyProvider } from "@alchemy/aa-alchemy";
 import { LightSmartContractAccount } from "@alchemy/aa-accounts";
 import { litSigner } from "./lit";
+
 const chain = sepolia;
 const provider = new AlchemyProvider({
   apiKey: "ALCHEMY_API_KEY",
